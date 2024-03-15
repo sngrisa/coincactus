@@ -1,0 +1,43 @@
+.divQuestion {
+    flex: 1 0 auto;
+}
+
+.divQuestionSquare {
+    display: "block";
+    padding: 30;
+}
+
+.btn-faq {
+    flex: 1 0 auto;
+    height: 120px !important;
+}
+
+#fadeID {
+    color: black !important;
+    border-color: whitesmoke !important;
+    font-weight: 700 !important;
+    background-color: white;
+    padding-bottom: 2%;
+    flex: 1 0 auto;
+    height: auto;
+    margin: 0 auto !important;
+    margin-bottom: 5% !important;
+    padding-top: 2% !important;
+    text-align: center;
+    border-radius: 1% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.iconFaq {
+    font-size: 21px;
+    margin-right: 1%;
+    color: green;
+}
+
+.iconFaqQuestion {
+    color: gold;
+    margin-right: 1%;
+    font-size: 22px !important;
+}

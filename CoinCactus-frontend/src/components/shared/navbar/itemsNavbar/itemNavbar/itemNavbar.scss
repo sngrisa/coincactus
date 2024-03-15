@@ -1,0 +1,20 @@
+.nav-item {
+    color: whitesmoke !important;
+    font-size: medium;
+}
+
+.nav-item:hover {
+    color: cadetblue !important;
+}
+
+@media (min-width: 1000px) {
+    .text-item-navbar {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1000px) {
+    #iconNavbarResponsive {
+        margin-right: 1% !important;
+    }
+}

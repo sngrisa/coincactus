@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: goldenrod;
+    --secondary: gold;
+    --light: #F2F8FE;
+    --dark: #111111;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 60px;
+    z-index: 99;
+}
+
+.App {
+    text-align: center !important;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+    font-weight: 500 !important;
+}
+
+.text-gold {
+    color: goldenrod !important;
+}
+
+.title-section {
+    font-weight: 800 !important;
+}
+
+.text-cursor {
+    cursor: pointer;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-gray-900 {
+    background-color: #0e131f;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-golden {
+    border-color: goldenrod !important;
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+
+.btn-golden:hover {
+    border-color: whitesmoke !important;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+.bg-gray-800 {
+    background-color: #19212c;
+}

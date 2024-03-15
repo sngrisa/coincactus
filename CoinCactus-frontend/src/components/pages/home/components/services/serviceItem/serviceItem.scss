@@ -1,0 +1,52 @@
+.service-item {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    border-radius: 5%;
+    box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.service-item::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -80px;
+    right: -80px;
+    border: 80px solid;
+    transform: rotate(45deg);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.service-item.bg-white::after {
+    border-color: transparent transparent var(--light) transparent;
+    cursor: pointer;
+}
+
+.service-item.bg-light::after {
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.service-item:hover::after {
+    opacity: 0;
+}
+
+.icon-serviceItem {
+    font-size: 60px !important;
+    cursor: pointer;
+}
+
+.serviceItemtext {
+    color: darkgoldenrod;
+    cursor: pointer;
+    font-weight: 800 !important;
+}
+
+.text-descService {
+    font-weight: 600 !important;
+    cursor: pointer;
+}

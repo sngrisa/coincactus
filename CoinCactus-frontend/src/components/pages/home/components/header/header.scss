@@ -1,0 +1,28 @@
+.imgheader {
+    animation-duration: 3s;
+}
+
+.hero-header .breadcrumb-item + .breadcrumb-item::before {
+    color: var(--secondary);
+}
+
+.hero-btn {
+    color: whitesmoke !important;
+    border-color: goldenrod !important;
+}
+
+.hero-btn:hover {
+    color: goldenrod !important;
+    border-color: whitesmoke !important;
+}
+
+.text-header {
+    font-weight: 600;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.img-header {
+    width: 500px;
+    cursor: pointer;
+}
