@@ -8,6 +8,7 @@ import "animate.css/animate.min.css";
 import "wow.js/css/libs/animate.css";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
+import 'sweetalert2/src/sweetalert2.scss';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -1,0 +1,35 @@
+.service-item-about {
+    background: #0a3034;
+    transition: 0.5s;
+    height: 310px;
+    border-radius: 3%;
+    cursor: pointer;
+    color: #cfcbc4;
+}
+
+.service-item-about:hover {
+    margin-top: -10px;
+    background: cadetblue;
+}
+
+#iconCardProject {
+    font-size: 3.5rem;
+    color: #3fe9f9;
+}
+
+.service-item-about * {
+    transition: 0.5s;
+}
+
+.service-item-about:hover * {
+    color: var(--light) !important;
+}
+
+.text-projects {
+    font-weight: 800 !important;
+}
+
+.icon-projects {
+    font-size: larger !important;
+    color: gold !important;
+}

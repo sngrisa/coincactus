@@ -1,0 +1,27 @@
+#sectionAbout {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 35rem !important;
+    padding: 15rem 0 !important;
+    animation: AnimationName 18s ease infinite;
+    background: linear-gradient(black, #3f87a6);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: scroll !important;
+    cursor: pointer;
+}
+
+#sectionAbout h1 {
+    font-size: 2.5rem !important;
+    line-height: 2.5rem !important;
+    color: goldenrod !important;
+    font-weight: 800 !important;
+}
+
+#sectionAbout h2 {
+    font-size: 1.5rem !important;
+    max-width: 30rem !important;
+    color: gold !important;
+}

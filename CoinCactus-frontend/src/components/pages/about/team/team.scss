@@ -1,0 +1,23 @@
+.divTeamAbout {
+    margin-top: -23px;
+    cursor: pointer;
+}
+
+.team-item img {
+    transition: 0.5s;
+    width: 100%;
+    height: 300px;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+.icon-team {
+    color: gold;
+    font-size: 2.8rem;
+    margin-right: 1%;
+}
+
+.card-about {
+    border-radius: 5% !important;
+}

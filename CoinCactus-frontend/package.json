@@ -27,6 +27,7 @@
     "react-popper": "^2.3.0",
     "react-router-dom": "^6.22.3",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.10.6",
     "waypoints": "^4.0.1",
     "wow.js": "^1.2.2"
   },

@@ -19,7 +19,7 @@ const Faq = ({ faqItem }) => {
                             aria-expanded={open}
                             aria-controls="fadeID" className='btn btn-golden btn-block btn-faq'
                         >
-                            <span className='iconFaqQuestion'><BsPatchQuestionFill /></span>{faqItem.question}
+                            <p>{faqItem.question}</p>
                         </Button>
                         <div className='text-center'>
                             <Fade in={open}>

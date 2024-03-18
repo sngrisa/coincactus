@@ -43,7 +43,7 @@ const Services = () => {
         {
             id: 5,
             title: "Educación y análisis",
-            desc: "Proporcionamos recursos educativos sobre monedas digitales y análisis de mercado para ayudar a los usuarios a tomar decisiones informadas sobre sus inversiones.",
+            desc: "Proporcionamos recursos educativos sobre monedas digitales y análisis de mercado para ayudar a los usuarios a tomar decisiones sobre sus inversiones.",
             icon: <FaChalkboardTeacher />
         },
         {
